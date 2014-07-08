@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root "restaurants#index"
+  root "static_pages#index"
   resources :restaurants
 end
